@@ -109,6 +109,7 @@ int main(){
 	}
 	if(list!=NULL){
 		StrList_free(list);
+		free(list);
 	}
 
 	return 0;
